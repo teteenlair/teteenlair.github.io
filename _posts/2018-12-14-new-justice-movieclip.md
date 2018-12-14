@@ -5,7 +5,7 @@ description: "This is the new Justice movieclip."
 categories: articles
 date: 2018-12-14
 image:
-  feature: soft-trees.jpg
+  feature: tenl.jpg
 ---
 
 This is the new Justice movieclip for `heavy metal`.
