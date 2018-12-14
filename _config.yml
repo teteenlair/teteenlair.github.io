@@ -1,29 +1,29 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
-canonical: http://jekyll.gtat.me
+title: Tête En L'Air
+tagline: Official Website
+description: Tête En L'Air - Official Website.
+canonical: https://teteenlair.github.io/
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
-  avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
+  name: Tête En L'Air
+  avatar: avatar.png
+  bio: "Aesthete & Athlete"
+  email: teteenlairmusic@gmail.com
+  twitter: teteenlair
+  github: teteenlair
+  instagram:
+  dribbble: coletownsend
+  disqus: balzac
+  location: "Montreal, QC"
   # Plug in your disqus shortname!
 
 tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
+  standards: "HTML, SCSS, Jekyll"
+  software: "git"
 
 # Open Graph customization
 opengraph:
-  locale:           en_US
+  locale: en_US
 
 # Links to include in top navigation
 # For external links add external: true
@@ -38,10 +38,10 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
+timezone: America/New_York
+future: true
 highlighter: pygments
-markdown:    kramdown
+markdown: kramdown
 
 kramdown:
   auto_ids: true
@@ -58,10 +58,20 @@ kramdown:
     coderay_css: class
 
 sass:
-    style: :compressed
+  style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:categories/:title
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+  ]
